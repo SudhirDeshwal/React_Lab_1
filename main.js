@@ -1,5 +1,5 @@
-//Function for header
-function TaskList_header(props) {
+//Const Variable for header
+const TaskList_header = (props)=> {
 
       return (
            <div> 
@@ -10,8 +10,8 @@ function TaskList_header(props) {
            );
         }
 
-//Function for list blocks
-              function Task_blocks_list(props) {
+//Const Variable for list blocks
+const Task_blocks_list = (props) => {
 
                 return (
                      <div> 
